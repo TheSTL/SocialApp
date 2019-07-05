@@ -1,0 +1,81 @@
+.home{
+  display: flex;
+  justify-content: center;
+}
+.mainHome{
+  display: flex;
+  
+}
+.people{
+  margin-left: 80px;
+}
+.post{
+  margin-top: 30px;
+}
+
+.posteByNameMain{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.postedByName{
+  display: flex;
+  align-items: center
+}
+h5{
+  margin: 0;
+}
+h3{
+  margin-left: 15px;
+}
+.line{
+  width: 250px;
+    background: black;
+    height: 2px;
+    margin-top: 20px;
+}
+.text{
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+.navbar{
+  display: flex;
+    justify-content: space-evenly;
+}
+.editproifle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.myprofilepage{
+  display: flex;
+  justify-content: center
+}
+.myprofile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+margin-left: 10px;
+border: black 1px solid;
+}
+.login,.signup{
+  position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeMain{
+  position: absolute;
+    top: 35%;
+    left: 50%;
+    border: black 1px solid;
+    padding: 12px;
+    width: 27em;
+    transform: translate(-50%,-50%);
+}
